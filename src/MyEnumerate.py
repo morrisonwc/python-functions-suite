@@ -1,4 +1,6 @@
 # MyEnumerate.py
+# Have to add an integer representing the first
+# index that should be used. (first_index)
 
 class MyEnumerate:
     def __init__(self, data, first_index=0):

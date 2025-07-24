@@ -1,9 +1,10 @@
 # MyEnumerate.py
 
 class MyEnumerate:
-    def __init__(self, data):
+    def __init__(self, data, first_index=0):
         self.data = data
         self.index = 0
+        self.first_index = first_index
 
     def __iter__(self):
         return self

@@ -1,4 +1,5 @@
 # MyRange.py
+# Add in two more integer arguments
 
 class MyRange:
     def __init__(self, num_to_iterate):
